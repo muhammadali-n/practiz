@@ -1,0 +1,185 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 3rem;
+  padding: 3 3rem;
+  width: 100%;
+  align-content: center;
+  max-width: 800px;
+  height: auto;
+  /* Set a maximum width for the grid container */
+
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  /* Add border to each grid item */
+  padding: 1rem;
+  /* Add padding to each grid item */
+}
+
+.loading-message {
+  padding: 3rem;
+  font-size: 1.5rem;
+}
+
+.no-products-message {
+  padding: 3rem;
+  font-size: 1.5rem;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  /* padding-top: 4em; */
+}
+
+.collection-list {
+  width: auto;
+  /* Set the desired width */
+  padding: 20px !important;
+  box-sizing: border-box;
+  /* Include padding in the width calculation */
+  align-items: left;
+}
+
+.collection-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Filters Styles */
+.filters {
+  width: 30%;
+  /* Set the desired width */
+  padding: 2em;
+  /* margin-right: 4em; */
+  box-sizing: border-box;
+  /* Include padding in the width calculation */
+  align-items: rigth;
+}
+
+.selected-option {
+  text-decoration: underline;
+  color: white;
+}
+
+/* Define styles for the list items */
+.filters .sort-options li {
+  list-style-type: none;
+  cursor: pointer;
+  /* Add cursor pointer to indicate clickable */
+  padding: 5px 0;
+  /* Add padding for spacing */
+}
+
+/* Define hover effect */
+.filters .sort-options li:hover {
+  text-decoration: underline;
+  /* Underline text on hover */
+}
+
+/* Define styles for the list items */
+.collection-list li {
+  list-style-type: none;
+  cursor: pointer;
+  /* Add cursor pointer to indicate clickable */
+  padding: 5px 0;
+  /* Add padding for spacing */
+}
+
+/* Define hover effect */
+.collection-list li:hover {
+  text-decoration: underline;
+  /* Underline text on hover */
+}
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow items to wrap to the next line if needed */
+  /* justify-content: center; */
+  gap: 20px;
+  /* Adjust the gap between the collection list and data cards */
+  color: white;
+  background-color: black;
+
+}
+
+.collection-list,
+.product-grid {
+  padding: 2em;
+  /* margin-left: 4em; */
+}
+
+.card-body {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+
+.card-title {
+  background-color: black;
+  width: auto;
+  height: 27px;
+  color: white;
+  /* border-radius: 23px; */
+  text-align: center;
+  /* border: 1px solid grey; */
+}
+
+.price-button {
+  color: white;
+  background-color: blue;
+  border-radius: 23px;
+}
+
+.card {
+  width: 18rem;
+  height: 28em;
+}
+
+.card-img {
+  height: 20em;
+}
+
+.card-body>button {
+
+  margin-left: 30px;
+}
+
+.variant-selector {
+  margin: 3px;
+  background-color: transparent;
+  border: 2px solid grey !important;
+  border-radius: 25px;
+}
+
+.variant-selector:focus {
+  margin: 3px;
+  background-color: transparent;
+  border: 2px solid blue !important;
+  border-radius: 25px;
+}
+
+.variant-selector:hover {
+  margin: 3px;
+  background-color: transparent;
+  border: 2px solid rgb(60, 60, 226) !important;
+  border-radius: 25px;
+}
+
+.product-price {
+  margin: 3px;
+  background-color: blue;
+  /* border: 2px solid grey !important; */
+  border-radius: 25px;
+  width: 8em;
+  height: 2.5em;
+  /* padding: 4px; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

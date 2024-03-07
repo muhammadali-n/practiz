@@ -1,0 +1,20 @@
+{
+    "transformFields":[
+        {
+            "inputField":"id",
+            "outputField":"id"
+        },
+        {
+            "inputField":"name",
+            "outputField":"title"
+        },
+        {
+            "inputField":"price",
+            "outputField":"price"
+        },
+        {
+            "inputField":"product",
+            "outputField":"imageSrc"
+        }
+    ]
+}

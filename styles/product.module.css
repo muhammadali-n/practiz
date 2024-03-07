@@ -1,0 +1,102 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 3rem;
+    padding: 3 3rem;
+    align-content:center;
+    max-width: 800px;
+    height: auto; /* Set a maximum width for the grid container */
+    
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc; /* Add border to each grid item */
+    padding: 1rem; /* Add padding to each grid item */
+  }
+  
+  .loading-message {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  
+  .no-products-message {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 40%; /* Set maximum width to 60% of the window */
+      margin: 0 auto; /* Automatically center the container horizontally */
+      padding-top: 4em;
+    }
+    .collection-list {
+      width: 20%; /* Set the desired width */
+      padding: 20px;
+      box-sizing: border-box; /* Include padding in the width calculation */
+      align-items: left;
+    }
+    .collection-item {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  
+    /* Filters Styles */
+  .filters {
+    width: 20%; /* Set the desired width */
+    padding: 2em;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    align-items: rigth;
+  }
+  
+  .selected-option {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  /* Define styles for the list items */
+  .filters .sort-options li {
+    list-style-type: none;
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    padding: 5px 0; /* Add padding for spacing */
+  }
+  
+  /* Define hover effect */
+  .filters .sort-options li:hover {
+    text-decoration: underline; /* Underline text on hover */
+  }
+  
+  /* Define styles for the list items */
+  .collection-list li {
+    list-style-type: none;
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    padding: 5px 0; /* Add padding for spacing */
+  }
+  
+  /* Define hover effect */
+  .collection-list li:hover {
+    text-decoration: underline; /* Underline text on hover */
+  }
+  
+  .page-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between the collection list and data cards */
+    color: white;
+  }
+  
+  .collection-list,
+  .product-grid {
+    padding: 2em;
+  }
+.list{
+  padding-left: 1rem;
+}
+.sort-options{
+  padding-right:1rem;
+}

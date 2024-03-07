@@ -1,0 +1,38 @@
+{
+    "transformer": [
+       {
+        "inputFieldName": "_id",
+        "outputFieldName": "id"
+       },
+       {
+        "inputFieldName": "title",
+        "outputFieldName": "title"
+       },
+       {
+        "inputFieldName": "_type",
+        "outputFieldName": "type"
+       },
+       {
+        "inputFieldName": "locale",
+        "outputFieldName": "locale"
+       },
+       {
+        "inputFieldName": "sections",
+        "outputFieldName": "sections"
+       },
+       {
+        "inputFieldName": "widgets",
+        "outputFieldName": "widgets"
+       },
+       {
+        "inputFieldName": "ButtonColor",
+        "outputFieldName": "ButtonColor"
+       },
+       {
+        "inputFieldName": "buttonName",
+        "outputFieldName": "buttonName"
+       }
+       
+    ]
+}
+

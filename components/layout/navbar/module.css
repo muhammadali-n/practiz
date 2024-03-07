@@ -1,0 +1,29 @@
+.search-input::placeholder {
+    color: white  !important; 
+  }
+  .search-input {
+    border: .1px solid #9d9a9a !important; 
+    border-radius: .1px !important; ; 
+  }
+
+  .navbar-form {
+    margin-left: -300px; /* Adjust this value to move the input form to the left */
+  }
+  .menu-item {
+    color: #cbc6c6 !important;
+    /* Add other styles as needed */
+}
+.margin
+{
+    margin-top: 20px;
+}
+.footer
+{
+  border-top : 0.1px solid rgb(162, 161, 161);
+}
+.copyright{
+  border-top: 0.1px solid rgb(193, 189, 189);
+  padding-top: 2em;
+  padding-bottom: 1em;
+
+}

@@ -1,0 +1,7 @@
+
+{
+    "TYPE_SPECIFICATION":{
+        "VENDURE_TYPE":"vendure",
+        "SHOPIFY_TYPE":"shopify"
+    }
+}

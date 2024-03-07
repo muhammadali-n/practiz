@@ -1,0 +1,33 @@
+{
+    "transformer": [
+       
+        {
+            "inputFieldName": "handle",
+            "outputFieldName": "handle"
+        },
+        {
+            "inputFieldName": "description",
+            "outputFieldName": " description"
+        },
+        {
+            "inputFieldName": "_id",
+            "outputFieldName": "objectID"
+        },
+        {
+            "inputFieldName": "id",
+            "outputFieldName": "id"
+        },
+        {
+            "inputFieldName": "title",
+            "outputFieldName": "title"
+        },
+        {
+            "inputFieldName": "price",
+            "outputFieldName": "price"
+        },
+        {
+            "inputFieldName": "imageSrc",
+            "outputFieldName": "imageSrc"
+        }
+    ]
+}
